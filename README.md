@@ -6,6 +6,7 @@
 4. [Community Detection](#community-detection-link)
 5. [Streaming](#streaming-link)
 6. [Clustering](#clustering-link)
+7. [Final Project](#final-project-link)
 
 ### Spark Fundamentals
 This assignment involved three parts which include the following, working on the yelp challenge dataset:
@@ -81,4 +82,4 @@ Task: Bradley-Fayyad-Reina (BFR) ([link](https://github.com/rohitpenumarti/Data-
  - implement the BFR algorithm on a given dataset
 
 ### Final Project
-This is the final project which is an extension of assignment 3 ([link](https://github.com/rohitpenumarti/Data-Mining/tree/master/FinalProject)). For this project, we had to lower the RMSE value to a suitable value. To achieve this, I created many new features using the user and business data provided as a part of the Yelp dataset challenge, and then I created the model and used Bayesian optimization to tune the hyperparameters (hyperopt). I then used the hybrid recommendation system to give the results.
+This is the final project which is an extension of assignment 3 ([link](https://github.com/rohitpenumarti/Data-Mining/tree/master/FinalProject)) (competition_pickle.py has the final code and train.py has the training file; the notebooks show some of the feature engineering and hyperparameter tuning). For this project, we had to lower the RMSE value to a suitable value. To achieve this, I created many new features using the user and business data provided as a part of the Yelp dataset challenge, and then I created the model and used Bayesian optimization to tune the hyperparameters (hyperopt). I then used the hybrid recommendation system to give the results.
