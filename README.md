@@ -1,14 +1,6 @@
 # Data-Mining
 
-1. [Spark Fundamentals](#spark-fundamentals-link)
-2. [Frequent Itemsets](#frequent-itemsets-link)
-3. [Similar Items and Recommendation Systems](#similar-items-and-recommendation-systems-link)
-4. [Community Detection](#community-detection-link)
-5. [Streaming](#streaming-link)
-6. [Clustering](#clustering-link)
-7. [Final Project](#final-project-link)
-
-### Spark Fundamentals
+### 1. Spark Fundamentals
 This assignment involved three parts which include the following, working on the yelp challenge dataset:
 
 Task 1: Data Exploration ([link](https://github.com/rohitpenumarti/Data-Mining/blob/master/hw1/task1.py))
@@ -26,7 +18,7 @@ Task 2: Partition ([link](https://github.com/rohitpenumarti/Data-Mining/blob/mas
 Task 3: Exploration on Multiple Datasets ([link](https://github.com/rohitpenumarti/Data-Mining/blob/master/hw1/task3.py))
  - What are the average stars for each city
 
-### Frequent Itemsets
+### 2. Frequent Itemsets
 This assignment involved two parts which include the following:
 
 Task 1: Frequent Itemsets ([link](https://github.com/rohitpenumarti/Data-Mining/blob/master/hw2/task1.py))
@@ -37,7 +29,7 @@ Task 2: SON Algorithm ([link](https://github.com/rohitpenumarti/Data-Mining/blob
  - preprocess Ta Feng dataset (kaggle) data to consider purchases by same consumer on separate days as different transactions
  - implement the SON algorithm to find frequent itemsets on qualified users (filter threshold k) based on support threshold
 
-### Similar Items and Recommendation Systems
+### 3. Similar Items and Recommendation Systems
 This assignment involved three parts including the following, using the yelp challenge dataset:
 
 Task 1: Jaccard Based LSH ([link](https://github.com/rohitpenumarti/Data-Mining/blob/master/hw3/task1.py))
@@ -52,7 +44,7 @@ Task 2.2: Model-Based Recommendation System ([link](https://github.com/rohitpenu
 Task 2.3: Hybrid Recommendation System ([link](https://github.com/rohitpenumarti/Data-Mining/blob/master/hw3/task2_3.py))
  - implement hybrid recommendation system by combining both Item-based and Model-based recommendation systems
 
-### Community Detection ([link](https://github.com/rohitpenumarti/Advanced-Mathematical-Finance/blob/master/Homeworks/Homework%204/Penumarti.Rohit.HW4.ipynb))
+### 4. Community Detection
 This assignment involved two parts including the following, using the yelp challenge dataset:
 
 Task 1: Community Detection Using GraphFrames ([link](https://github.com/rohitpenumarti/Data-Mining/blob/master/hw4/task1.py))
@@ -63,7 +55,7 @@ Task 2: Community Detection using Girvan-Newman Algorithm ([link](https://github
  - compute betweenness between each edge in original graph constructed in previous part
  - group users based modularity of communities
 
-### Streaming
+### 5. Streaming
 This assignment involved three parts including the following:
 
 Task 1: Bloom Filtering ([link](https://github.com/rohitpenumarti/Data-Mining/blob/master/hw5/task1.py))
@@ -75,11 +67,11 @@ Task 2: Flajolet-Martin ([link](https://github.com/rohitpenumarti/Data-Mining/bl
 Task 3: Fixed Size Sampling ([link](https://github.com/rohitpenumarti/Data-Mining/blob/master/hw5/task3.py))
  - implement reservoir sampling algorithm
 
-### Clustering
+### 6. Clustering
 This assignment involved one part including the following:
 
 Task: Bradley-Fayyad-Reina (BFR) ([link](https://github.com/rohitpenumarti/Data-Mining/blob/master/hw6/task.py))
  - implement the BFR algorithm on a given dataset
 
-### Final Project
+### 7. Final Project
 This is the final project which is an extension of assignment 3 ([link](https://github.com/rohitpenumarti/Data-Mining/tree/master/FinalProject)) (competition_pickle.py has the final code and train.py has the training file; the notebooks show some of the feature engineering and hyperparameter tuning). For this project, we had to lower the RMSE value to a suitable value. To achieve this, I created many new features using the user and business data provided as a part of the Yelp dataset challenge, and then I created the model and used Bayesian optimization to tune the hyperparameters (hyperopt). I then used the hybrid recommendation system to give the results.
